@@ -3,7 +3,7 @@ body {
    font-family: Arial, sans-serif;
     margin: 0;
 
-    background-image: url("imageGt.jpg");
+    background-image: url("imagesGt.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@ body {
 
 /* Header */
 header {
-    background-color: #333;
+    background-color: #3a3535;
     color: rgb(231, 229, 226);
     text-align: center;
     padding: 30px;
