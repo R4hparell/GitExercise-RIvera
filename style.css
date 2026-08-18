@@ -1,14 +1,14 @@
 /* General Page Style */
-body {
+body{
    background-color: #f4f4f4;
-
+}
 header {
     background-image: url('woodpng.jpg');
     background-position: center;
     color: rgb(231, 229, 226);
     text-align: center;
     padding: 30px;
-    
+
 }
 
 header h1 {
