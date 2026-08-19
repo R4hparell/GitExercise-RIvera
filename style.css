@@ -2,8 +2,7 @@
 body{
 
    font-family: Arial, sans-serif; 
-   background: linear-gradient(black, gray)  
-   no-repeat center center fixed;
+   background: linear-gradient(black, gray, black);  
    display: flex;
    flex-direction: column;
    min-height: 100vh;
