@@ -1,81 +1,143 @@
 /* General Page Style */
 body{
+
    font-family: Arial, sans-serif; 
-   background: linear-gradient(gray, black)  
+   background: linear-gradient(black, gray)  
    no-repeat center center fixed;
    
-
 }
+
 header {
-    background-color: #2c2828;
-    background-position: center;
-    color: rgb(231, 229, 226);
-    text-align: center;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(gtb1.jpg);
+    background-size: cover;
+    padding: 20px 30px; 
+    font-size: 30px; 
+    font-weight: bold;
+    color: rgb(255, 255, 255);
     
 }
 
-header h1 {
-    background-color: #2c2828;
-    padding: 20px;
-    color: rgb(255, 255, 255);
-}
-
 nav {
-    text-align: center;
-    padding: 20px;
+
+    gap: 25px;
+    font-size: 16px;
+    text-align: right;
+    padding: 26px ;
+    
 }
 
 nav a {
+
     color: rgb(252, 252, 252);
     text-decoration: none;
     margin: 20px;
 }
 
 nav a:hover {
+
     color: #706e6e;
 }
 
 
 main {
+
     width: 80%;
     max-width: 800px;
-    margin: 30px auto;
+    margin: auto;
 }
 
 
-article {
-    background-color: rgb(255, 253, 253);
+.article1 {
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(g2s.jpg);
+    background-size: cover;
+    background-position: center;
     padding: 25px;
     margin-bottom: 20px;
-    border-radius: 8px;
-}
-
-article h2 {
-    margin-top: 0;
-    color: #333;
-}
-
-.date {
-    color: #777;
-    font-size: 14px;
-}
-
-.read-more {
-    display: inline-block;
-    background-color: #333;
+    padding: 50px;
     color: white;
-    text-decoration: none;
-    padding: 10px 15px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
-.read-more:hover {
-    background-color: #777;
+.article2 {
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(g3s.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    margin-bottom: 20px;
+    padding: 50px;
+    color: white;
+    border-radius: 10px;
 }
 
+.article3 {
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(g4s.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    margin-bottom: 20px;
+    padding: 50px;
+    color: white;
+    border-radius: 10px;
+}
+
+.article4 {
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(gtpng.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    margin-bottom: 20px;
+    padding: 50px;
+    color: white;
+    border-radius: 10px;
+}
+
+.article1b1 {
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(gta1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    margin-bottom: 20px;
+    padding: 50px;
+    color: white;
+    border-radius: 10px;
+}
+
+.article1c1 {
+
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(gtac1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    margin-bottom: 20px;
+    padding: 50px;
+    color: white;
+    border-radius: 10px;
+}
 
 footer {
-    background-color: #4e4c4c;
+
+    background-color: #181717;
     color: rgb(255, 249, 249);
     text-align: center;
     margin-top: 12px;
