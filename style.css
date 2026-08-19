@@ -16,10 +16,10 @@ header {
     align-items: center;
     background-image: url(gtb1.jpg);
     background-size: cover;
-    padding: 20px 30px; 
+    padding: 10px 20px; 
     font-size: 30px; 
     font-weight: bold;
-    color: rgb(255, 255, 255);
+    color: white
     
 }
 
@@ -60,16 +60,18 @@ header {
 
 nav {
 
-    gap: 25px;
-    font-size: 16px;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 8px;
+    padding: 10px;
     text-align: right;
-    padding: 26px ;
     
 }
 
 nav a {
 
-    color: rgb(252, 252, 252);
+    color: rgb(236, 229, 229);
     text-decoration: none;
     margin: 20px;
     padding: 10px;
